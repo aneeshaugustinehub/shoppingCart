@@ -31,7 +31,7 @@ let produtcs = [
   }
 ]
 
-  res.render('index', {produtcs});
+  res.render('index', {produtcs,admin:false});
 });
 
 module.exports = router;
